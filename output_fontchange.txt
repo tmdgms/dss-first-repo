@@ -1,0 +1,10 @@
+<jupyter notebook output font 바꾸기>
+
+1. C:\Users\(사용자 ID)\.jupyter 에 들어가서 폴더를만듬
+
+2.  그폴더안에 확장자를 css로 하는 메모장을 생성
+
+3. 메모장에 다음과 같은 코드 작성
+    : div.output_area pre {font-family: Consolas, monospace;font-size: small;}
+
+4. 저장후 jupyter notebook 재시작 
